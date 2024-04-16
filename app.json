@@ -1,0 +1,34 @@
+{
+	"name": "TempMail",
+	"description": "A TeleGramBot to send messages secretly!",
+	"logo": "https://telegra.ph/file/5116db79f852db113875c.jpg",
+	"keywords": [
+		"telegram",
+		"bot",
+		"python",
+		"telethon"
+	],
+	"repository": "https://github.com/Source-Ze/temp",
+    "env": {
+        "6889060225:AAE9TbAD_iGu1tX9fSiCmLUBF1eb-E4tmNY": {
+            "description": "Your Telegram Bot Token from @BotFather",
+            "value": ""
+        },
+        "62ba116490803164ee88d4e477d5da84": {
+            "description": "Your API Hash from my.telegram.org",
+            "value": ""
+        },
+        "22865033": {
+            "description": "Your APP ID from my.telegram.org",
+            "value": ""
+	   }
+	},
+	"buildpacks": [
+		{
+			"url": "heroku/python"
+		}
+	]
+}
+
+
+
